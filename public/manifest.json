@@ -1,0 +1,15 @@
+{
+  "short_name": "Bar(in your browser)",
+  "name": "Manage your settings and update your cocktail catalog on your Bar from the browser.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
