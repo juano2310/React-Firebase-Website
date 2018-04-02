@@ -23,20 +23,11 @@ const LoggedIn = function LoggedIn(props) {
           {(props.auth.currentUser) && (<div>
 
             <Typography type="display2" gutterBottom>
-              Successfully logged in
-            </Typography>
-
-            <Typography type="display1" component="h2" gutterBottom>
-              Hey! {props.auth.currentUser.displayName}
+              {props.auth.currentUser.displayName} you successfully logged in :)
             </Typography>
 
             <Typography type="headline" component="h2" gutterBottom>
-              Here's what your login provider has returned about you:
-            </Typography>
-
-
-            <Typography type="body2" component="div">
-              <pre> {JSON.stringify(props.auth.currentUser)} </pre>
+              It's great to see you here!
             </Typography>
 
           </div>)}

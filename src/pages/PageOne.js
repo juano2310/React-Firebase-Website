@@ -14,8 +14,11 @@ const PageOne = function PageOne(props) {
         <CardContent>
 
             <Typography type="display1" gutterBottom>
-              This is it! Bar is here! 
+              This is it!
             </Typography>
+			<Typography type="display1" gutterBottom>
+			  Bar is finally here! 
+			</Typography>
             <Typography type="caption" gutterBottom>
               Please log in to manage your device.
             </Typography>
