@@ -14,18 +14,11 @@ const PageOne = function PageOne(props) {
         <CardContent>
 
             <Typography type="display1" gutterBottom>
-              Checkout this little Firebase Auth / React / Material-UI boilerplate
+              This is it! Bar is here! 
             </Typography>
             <Typography type="caption" gutterBottom>
-              Also simple usage of react-router and mobx
+              Please log in to manage your device.
             </Typography>
-          <Typography type="body2" gutterBottom>
-              <a href={'https://github.com/cdharris/react-fire-auth-material-boiler/'}>https://github.com/cdharris/react-fire-auth-material-boiler/</a>
-            </Typography>
-
-
-
-
         </CardContent>
 
         <CardActions>
